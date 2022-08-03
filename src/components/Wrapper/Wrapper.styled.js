@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-width: 450px;
-border-radius: 15%;
-border: 1px solid gray;
+width: 500px;
+border-radius: 20%;
+border: 1px solid dimgray;
 margin-left: auto;
 margin-right: auto;
 margin-top: 20px;

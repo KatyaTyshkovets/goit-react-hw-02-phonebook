@@ -20,7 +20,8 @@ flex-direction:column;
 margin: 0 auto;
 width:350px;
 padding: 5px;
-border: 1px solid gray;
+border: 1px solid dimgray;
+border-radius: 10%;
 transition: border-color 800ms ease-in-out 0s;
 `;
 
@@ -31,7 +32,7 @@ width:200px;
 `;
 
 export const Button = styled.button`
-background-color:blue;
+background-color:floralwhite;
 margin: 0 auto 10px;
  border-radius: 25px;
  padding: 7px;
@@ -40,7 +41,7 @@ margin: 0 auto 10px;
     curcor:pointer;
     transition:transform 500ms linear;
     & :focus , :hover {
-        background-color:blueviolet;
+        background-color:whitesmoke;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
         transform: scale(1.1);
     }
